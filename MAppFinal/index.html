@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>발로란트 요원 소개</title>
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="JS/script.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body
+    class="FontSetting"
+    style="background-image: url(Img/MainBackground.png)"
+  >
+    <!--상단 영상-->
+    <div class="Val" style="background-image: url(Img/Val.png)"></div>
+    <div class="divideMovie00"></div>
+    <div class="R_gradiant"></div>
+    <div class="L_gradiant"></div>
+
+    <div class="Contents_Container">
+      <button class="ToAgent" id="Agent00">요원 정보</button>
+      <video autoplay loop muted>
+        <source src="Video/V_Top00.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!--중앙 발로란트 소개-->
+    <div class="BackgroundBlur"></div>
+
+    <div
+      class="Contents_Container"
+      style="background-color: #0f1722"
+      id="Valorant"
+    >
+      <div class="val_InfoBackground" id="Valorant_Info_Background">
+        <div class="val_Info" id="Valorant_Info">
+          <button class="ToAgent01" id="Agent">요원 보러가기</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 요원 이미지 애니메이션 컨테이너-->
+    <div class="AgentImg_Container" id="D">
+      <div class="D_0"></div>
+      <div class="D_1"></div>
+      <div class="D_2"></div>
+      <div class="D_3"></div>
+      <div class="D_4"></div>
+      <div class="D_5"></div>
+      <div class="D_6"></div>
+    </div>
+
+    <div class="AgentImg_Container" id="I">
+      <div class="I_0"></div>
+      <div class="I_1"></div>
+      <div class="I_2"></div>
+      <div class="I_3"></div>
+      <div class="I_4"></div>
+      <div class="I_5"></div>
+    </div>
+
+    <div class="AgentImg_Container" id="C">
+      <div class="C_0"></div>
+      <div class="C_1"></div>
+      <div class="C_2"></div>
+      <div class="C_3"></div>
+      <div class="C_4"></div>
+      <div class="C_5"></div>
+    </div>
+
+    <div class="AgentImg_Container" id="S">
+      <div class="S_0"></div>
+      <div class="S_1"></div>
+      <div class="S_2"></div>
+      <div class="S_3"></div>
+      <div class="S_4"></div>
+      <div class="S_5"></div>
+    </div>
+
+    <!--요원 정보-->
+    <div
+      class="Contents_Container"
+      style="
+        background-image: url(Img/Background_Defalt.png);
+        margin-bottom: 0px;
+      "
+      id="AgentInfo"
+    >
+      <div class="Grid_Container">
+        <!--타격대-->
+        <div class="Grid_Contents" id="Duelist">
+          <div
+            class="Grid_Img"
+            style="background-image: url(Img/Duelist.png)"
+          ></div>
+          <div class="Grid_Title">타격대</div>
+          <div class="Grid_Text">
+            타격대 요원은 주로 공격적인 플레이를 통해 팀의 진입을 도와주는
+            역할을 맡습니다.
+          </div>
+          <a href="Index01.html"
+            ><div class="Grid_Move2Page">요원 보러 가기</div>
+          </a>
+        </div>
+
+        <!--척후대-->
+        <div class="Grid_Contents" id="Initiator">
+          <div
+            class="Grid_Img"
+            style="background-image: url(Img/Initiator.png)"
+          ></div>
+          <div class="Grid_Title">척후대</div>
+          <div class="Grid_Text">
+            척후대 요원들은 주로 팀의 정보를 수집하고, 적의 위치를 파악하여 팀이
+            유리한 전략을 세울 수 있도록 지원하는 데 특화되어 있습니다.
+          </div>
+          <a href="Index02.html"
+            ><div class="Grid_Move2Page">요원 보러 가기</div>
+          </a>
+        </div>
+
+        <!--전략가-->
+        <div class="Grid_Contents" id="Controller">
+          <div
+            class="Grid_Img"
+            style="background-image: url(Img/Controller.png)"
+          ></div>
+          <div class="Grid_Title">전략가</div>
+          <div class="Grid_Text">
+            전략가 역할을 맡은 요원들은 맵의 주요 구역을 제어하고, 전투에서 팀의
+            유리한 위치를 확보하기 위해 다양한 기술을 보유하고 있습니다.
+          </div>
+          <a href="Index03.html"
+            ><div class="Grid_Move2Page">요원 보러 가기</div>
+          </a>
+        </div>
+
+        <!--감시자-->
+        <div class="Grid_Contents" id="Sentinel">
+          <div
+            class="Grid_Img"
+            style="background-image: url(Img/Sentinel.png)"
+          ></div>
+          <div class="Grid_Title">감시자</div>
+          <div class="Grid_Text">
+            감시자 역할을 맡은 요원들은 팀의 방어를 담당하며, 팀원이 안전하게
+            진입하거나 거점을 방어할 수 있도록 돕는 보호 및 억제 전문가입니다.
+          </div>
+          <a href="Index04.html"
+            ><div class="Grid_Move2Page">요원 보러 가기</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="Info_Container"></div>
+
+    <!--최상단 이동 버튼-->
+    <button
+      class="Top_Btn"
+      id="Top"
+      style="background-image: url(Img/Btn2Scroll.png)"
+    ></button>
+  </body>
+</html>
