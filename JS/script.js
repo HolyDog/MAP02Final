@@ -8,10 +8,25 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const Agent = $("#Agent");
+  const Agent00 = $("Agent00");
 
   Agent.click(function () {
     $("html, body").animate({ scrollTop: $("#AgentInfo").offset().top }, 800);
   });
+  Agent00.click(function () {
+    $("html, body").animate({ scrollTop: $("#AgentInfo").offset().top }, 400);
+  });
+});
+
+$(document).ready(function () {
+  $("#Valorant_Info_Background").hover(
+    function () {
+      $("#Valorant_Info").stop().animate({ opacity: 1 }, 150);
+    },
+    function () {
+      $("#Valorant_Info").stop().animate({ opacity: 0 }, 400);
+    }
+  );
 });
 
 $(document).ready(function () {

@@ -14,27 +14,37 @@
     ></script>
   </head>
 
-  <body class="FontSetting">
+  <body
+    class="FontSetting"
+    style="background-image: url(Img/MainBackground.png)"
+  >
     <!--상단 영상-->
     <div class="Val" style="background-image: url(Img/Val.png)"></div>
-
+    <div class="divideMovie00"></div>
     <div class="R_gradiant"></div>
     <div class="L_gradiant"></div>
 
     <div class="Contents_Container">
-      <button class="ToAgent" id="Agent">요원 정보</button>
+      <button class="ToAgent" id="Agent00">요원 정보</button>
       <video autoplay loop muted>
         <source src="Video/V_Top00.mp4" type="video/mp4" />
       </video>
     </div>
 
-    <div class="R_gradiant"></div>
     <!--중앙 발로란트 소개-->
+    <div class="BackgroundBlur"></div>
+
     <div
       class="Contents_Container"
       style="background-color: #0f1722"
       id="Valorant"
-    ></div>
+    >
+      <div class="val_InfoBackground" id="Valorant_Info_Background">
+        <div class="val_Info" id="Valorant_Info">
+          <button class="ToAgent01" id="Agent">요원 보러가기</button>
+        </div>
+      </div>
+    </div>
 
     <!-- 요원 이미지 애니메이션 컨테이너-->
     <div class="AgentImg_Container" id="D">
