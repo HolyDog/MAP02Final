@@ -5,11 +5,101 @@
     <title>발로란트 요원 : 척후대</title>
     <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <script src="JS/script.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+
+  <body
+    class="FontSetting"
+    style="background-image: url(Img/I_Image/MainBack.png)"
+  >
+    <!--척후대 설명-->
+    <div class="I_Contents_Container">
+      <div class="I_Info"></div>
+    </div>
+
+    <!--척후대 선택 그리드-->
+    <div class="I_Grid_Container">
+      <!--소바-->
+      <div class="I_Grid_Background" id="sova_Skill">
+        <div class="I_SOVA_Agent_Image" id="I_SOVA"></div>
+        <div class="I_Name">SOVA</div>
+      </div>
+      <!--스카이-->
+      <div class="I_Grid_Background" id="sky_Skill">
+        <div class="I_SKY_Agent_Image" id="I_SKY"></div>
+        <div class="I_Name">SKY</div>
+      </div>
+      <!--브리치-->
+      <div class="I_Grid_Background" id="breach_Skill">
+        <div class="I_BREACH_Agent_Image" id="I_BREACH"></div>
+        <div class="I_Name">BREACH</div>
+      </div>
+      <!--케이오-->
+      <div class="I_Grid_Background" id="kayo_Skill">
+        <div class="I_KAYO_Agent_Image" id="I_KAYO"></div>
+        <div class="I_Name">KAY/O</div>
+      </div>
+      <!--게코-->
+      <div class="I_Grid_Background" id="gekko_Skill">
+        <div class="I_GEKKO_Agent_Image" id="I_GEKKO"></div>
+        <div class="I_Name">GEKKO</div>
+      </div>
+      <!--페이드-->
+      <div class="I_Grid_Background" id="fade_Skill">
+        <div class="I_FADE_Agent_Image" id="I_FADE"></div>
+        <div class="I_Name">FADE</div>
+      </div>
+    </div>
+
+    <!--척후대 요원 설명-->
+    <div class="I_Contents_Container" id="EX">
+      <div class="I_Background" id="I_Background">
+        <!--요원 이미지-->
+        <div class="I_EX_Image" id="I_EX_Image"></div>
+        <!--요원 설명-->
+        <div class="I_EX_AgentT" id="I_EX_AgentT">
+          <div class="I_EX_AgentN" id="I_EX_AgentN"></div>
+          <div class="I_EX_Agent" id="I_EX_Agent"></div>
+        </div>
+        <!--요원 스킬-->
+        <div class="I_EX_SkillContainer">
+          <div class="I_Divide_Area" id="I_Divide_Area"></div>
+          <div class="I_Grid_Skill">
+            <div class="I_Icon_Skill" id="0"></div>
+            <div class="I_Divide_Skill" id="I_Divide_Skill0"></div>
+            <div class="I_Icon_Skill" id="1"></div>
+            <div class="I_Divide_Skill" id="I_Divide_Skill1"></div>
+            <div class="I_Icon_Skill" id="2"></div>
+            <div class="I_Divide_Skill" id="I_Divide_Skill2"></div>
+            <div class="I_Icon_Skill" id="3"></div>
+          </div>
+          <div class="I_Skill_BackGround" id="I_Skill_BackGround">
+            <div class="I_Skill_Name" id="I_Skill_Name"></div>
+            <div class="I_Skill_Credit0" id="I_Skill_Credit0"></div>
+            <div class="I_Skill_Credit1" id="I_Skill_Credit1"></div>
+            <div class="I_Skill_Charge0" id="I_Skill_Charge0"></div>
+            <div class="I_Skill_Charge1" id="I_Skill_Charge1"></div>
+            <div class="I_Skill_EX0" id="I_Skill_EX0"></div>
+            <div class="I_Skill_EX1" id="I_Skill_EX1"></div>
+            <div class="I_Skill_EX2" id="I_Skill_EX2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--최하단-->
+    <div class="Info_Container"></div>
+
+    <!--최상단 이동 버튼-->
+    <button
+      class="Top_Btn"
+      id="Top"
+      style="background-image: url(Img/Btn2Scroll.png)"
+    ></button>
+  </body>
 </html>
