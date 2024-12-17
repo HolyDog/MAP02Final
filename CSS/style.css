@@ -8,18 +8,19 @@
   font-style: normal;
 }
 
+/*index.html*/
 /*링크 설정*/
 a {
-  color: #222;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #222;
+  color: #ff4646;
 }
 
 a:visited {
-  color: #222;
+  color: #ff4646;
 }
 
 /*버튼 설정*/
@@ -635,7 +636,8 @@ body {
   margin-left: 73px;
 
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 800;
+  color: #ff4646;
 }
 
 .Grid_Text {
@@ -646,9 +648,11 @@ body {
   padding-top: 0;
 
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 10%;
   line-height: 150%;
+
+  color: #ff4646;
 }
 
 .Grid_Move2Page {
@@ -660,14 +664,15 @@ body {
   margin-right: auto;
 
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 5%;
   line-height: 130%;
+  color: #e5e5e5;
 }
 
 .Grid_Move2Page:hover {
   font-weight: 500;
-  color: #000;
+  color: #ff4646;
 }
 
 .Top_Btn {
@@ -690,4 +695,371 @@ body {
 
 .Top_Btn:hover {
   opacity: 100%;
+}
+
+/*Idex02.html*/
+
+.I_Contents_Container {
+  position: relative;
+  width: 1920px;
+  height: 900px;
+}
+
+.I_Info {
+  position: relative;
+
+  top: 87px;
+  left: 402px;
+
+  width: 1116px;
+  height: 646px;
+
+  background-image: url(../Img/I_Image/I_Info.png);
+}
+
+/*요원 선택 그리드*/
+.I_Grid_Container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  z-index: 5;
+
+  margin-top: -50px;
+  margin-left: 424px;
+  margin-bottom: 380px;
+
+  width: 1073px;
+
+  row-gap: 100px;
+  column-gap: 70px;
+}
+
+.I_Grid_Background {
+  position: relative;
+  background-image: url(../Img/I_Image/I_Grid_Background.png);
+
+  width: 291px;
+  height: 383px;
+}
+
+.I_Name {
+  position: relative;
+  width: 145px;
+  height: 24px;
+  left: 77px;
+  top: 90px;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/*요원 선택 요원 이미지*/
+.I_SOVA_Agent_Image {
+  position: relative;
+  width: 164px;
+  height: 252px;
+  top: 55px;
+  left: 64px;
+
+  background-image: url(../Img/I_Image/I_Agent_Shadow/SOVA_S.png);
+}
+
+.I_SKY_Agent_Image {
+  position: relative;
+  width: 164px;
+  height: 252px;
+  top: 55px;
+  left: 64px;
+
+  background-image: url(../Img/I_Image/I_Agent_Shadow/SKY_S.png);
+}
+
+.I_BREACH_Agent_Image {
+  position: relative;
+  width: 164px;
+  height: 252px;
+  top: 55px;
+  left: 64px;
+
+  background-image: url(../Img/I_Image/I_Agent_Shadow/BREACH_S.png);
+}
+
+.I_KAYO_Agent_Image {
+  position: relative;
+  width: 164px;
+  height: 252px;
+  top: 55px;
+  left: 64px;
+
+  background-image: url(../Img/I_Image/I_Agent_Shadow/KAYO_S.png);
+}
+
+.I_GEKKO_Agent_Image {
+  position: relative;
+  width: 164px;
+  height: 252px;
+  top: 55px;
+  left: 64px;
+
+  background-image: url(../Img/I_Image/I_Agent_Shadow/GEKKO_S.png);
+}
+
+.I_FADE_Agent_Image {
+  position: relative;
+  width: 164px;
+  height: 252px;
+  top: 55px;
+  left: 64px;
+
+  background-image: url(../Img/I_Image/I_Agent_Shadow/FADE_S.png);
+}
+
+.I_Background {
+  position: relative;
+  width: 1920px;
+  height: 900px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../Img/I_Image/I_Agent_BackGround/INITIATOR_default.png);
+}
+
+.I_EX_Image {
+  position: relative;
+  width: 348px;
+  height: 563px;
+
+  top: 313px;
+  left: 320px;
+}
+
+.I_EX_AgentT {
+  position: relative;
+  width: 968px;
+  height: 152px;
+
+  left: 570px;
+  bottom: 300px;
+}
+
+.I_EX_AgentN {
+  position: relative;
+  width: 184px;
+  height: 24px;
+
+  top: 36px;
+  left: 100px;
+
+  color: #ff4646;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.I_EX_Agent {
+  position: relative;
+  width: 500px;
+  height: 100px;
+
+  top: 10px;
+  left: 446px;
+
+  line-height: 140%;
+  color: #e5e5e5;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+/*스킬*/
+.I_EX_SkillContainer {
+  position: relative;
+  width: 736px;
+  height: 425px;
+
+  top: -280px;
+  left: 798px;
+}
+
+.I_Grid_Skill {
+  position: relative;
+  display: flex;
+  gap: 70px;
+
+  width: 676px;
+  height: 64px;
+
+  margin-bottom: 20px;
+
+  left: 30px;
+}
+
+.I_Divide_Area {
+  position: relative;
+  width: 736px;
+  height: 5px;
+  top: 0px;
+
+  margin-bottom: 20px;
+}
+
+.I_Divide_Skill {
+  position: relative;
+  opacity: 0.2;
+  width: 1px;
+  height: 32px;
+
+  top: 16px;
+}
+
+.I_Icon_Skill {
+  position: relative;
+
+  width: 64px;
+  height: 64px;
+
+  transition: opacity 0.3s ease;
+}
+
+.I_Skill_BackGround {
+  position: relative;
+
+  width: 736px;
+  height: 306px;
+
+  bottom: 0px;
+}
+
+.I_Skill_Name {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+
+  top: 55px;
+  left: 59px;
+
+  font-size: 16px;
+  text-align: left;
+  font-weight: 800;
+  color: #ff4646;
+}
+
+.I_Skill_Credit0 {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+
+  top: 92px;
+  left: 59px;
+
+  font-size: 14px;
+  text-align: left;
+  font-weight: 800;
+  color: #ff4646;
+}
+
+.I_Skill_Credit1 {
+  position: absolute;
+  width: 275px;
+  height: 16px;
+
+  top: 92px;
+  left: 204px;
+
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+  color: #ff4646;
+}
+
+.I_Skill_Charge0 {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+
+  top: 131px;
+  left: 59px;
+
+  font-size: 14px;
+  text-align: left;
+  font-weight: 800;
+  color: #ff4646;
+}
+
+.I_Skill_Charge1 {
+  position: absolute;
+  width: 275px;
+  height: 16px;
+
+  top: 131px;
+  left: 204px;
+
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+  color: #ff4646;
+}
+
+.I_Skill_EX0 {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+
+  top: 163px;
+  left: 59px;
+
+  font-size: 16px;
+  text-align: left;
+  font-weight: 800;
+  color: #ff4646;
+}
+
+.I_Skill_EX1 {
+  position: absolute;
+  width: 420px;
+  height: 58px;
+
+  top: 189px;
+  left: 59px;
+
+  font-size: 12px;
+  line-height: 130%;
+  text-align: left;
+  font-weight: 600;
+  color: #ff4646;
+}
+
+.I_Skill_EX2 {
+  position: absolute;
+  width: 420px;
+  height: 12px;
+
+  top: 256px;
+  left: 59px;
+
+  font-size: 10px;
+  text-align: left;
+  font-weight: 400;
+  color: #ff4646;
+}
+
+.I_EX_SkillC {
+  position: relative;
+
+  width: 700px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.I_Skill_Text {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
 }
